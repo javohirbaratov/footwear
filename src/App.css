@@ -1,0 +1,73 @@
+/* FONTS */
+
+@font-face {
+  font-display: swap;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/urbanist-v15-latin-300.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/urbanist-v15-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/urbanist-v15-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/fonts/urbanist-v15-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/urbanist-v15-latin-700.woff2") format("woff2");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pr-family: "Urbanist", sans-serif;
+  --border-color: rgba(145, 158, 171, 0.2);
+  --pr-color: #25252b;
+  --gr-color: #F4F6F7;
+}
+
+body {
+  font-family: var(--pr-family);
+  background-color: #f6f5fa !important;
+  min-height: 100vh;
+
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Likely future */
+}
+
+/* Text not select */
+.notSelect {
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Likely future */
+}

@@ -1,0 +1,37 @@
+.mainListGridItem {
+    /* background-color: #F4F6F7;  */
+    border-radius: 15px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    transition: transform 0.1s ease-in-out;
+    
+}
+.mainListGridItem.onPress:active {
+    transform: scale(0.96); 
+}
+.mainListGridItemBody {
+    flex-grow: 1;
+}
+.boxItemOne{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    font-weight: 800;
+    color: #747C85;
+}
+.boxItemTwo {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.boxItemTitle {
+    font-size: 18px;
+    color: #000;
+}
+.boxItemCaption {
+    font-size: 14px;
+    font-weight: medium;
+    color: #747C85;
+}

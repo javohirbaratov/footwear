@@ -1,0 +1,35 @@
+.sider {
+  padding: 24px 0;
+  border-right: 1px dashed var(--border-color);
+  background: #fff;
+}
+
+/* Profile */
+.siderProfile {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin: 16px;
+  border-radius: 12px;
+  width: calc(100% - (16px + 16px));
+  background: #edeff1;
+  padding: 10px 8px;
+}
+.siderProfileImage {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 100%;
+  background: white;
+}
+.siderProfileImage img {
+  display: inline-block;
+  width: 100%;
+}
+
+.siderProfileTitle {
+  font-family: var(--pr-family);
+  font-weight: 600;
+  font-size: 16px;
+  color: #424242;
+}

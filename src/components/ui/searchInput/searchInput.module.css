@@ -1,0 +1,36 @@
+.searchInput {
+  position: relative;
+  border-radius: 10px; 
+  width: 100%;
+  height: 36px;
+  background: #fff;
+  display: flex;
+}
+
+.searchInput input {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 14px;
+  font-family: var(--pr-family);
+  font-weight: 300;
+  color: #000;
+  transition:  box-shadow 0.2s ease-in-out;
+  padding-right: 40px;
+}
+
+.searchInput input:focus {
+  box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.59);
+}
+
+.searchInputIcon {
+  position: absolute;
+  right: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}

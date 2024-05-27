@@ -1,0 +1,38 @@
+.alertContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.alertContent {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  width: 369px;
+  height: 372px;
+  border-radius: 15px;
+  background-color: #FFF;
+}
+
+.alertIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: #2BD479;
+  border-radius: 50%;
+  color: #FFF;
+  font-size: 64px;
+}
+
+.alertTxtContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

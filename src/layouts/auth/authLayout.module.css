@@ -1,0 +1,34 @@
+.authLayout {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+}
+.authLayoutContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  border-radius: 15px;
+  max-width: 350px;
+  width: 100%;
+  backdrop-filter: blur(32px);
+  box-shadow: 0 4px 26px 0 rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.47);
+}
+.formLogo {
+  margin-bottom: 14px;
+}
+.formLogo img {
+  width: 100%;
+}
+.formTitle {
+  margin-bottom: 30px;
+  font-family: var(--pr-family);
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #000;
+}
